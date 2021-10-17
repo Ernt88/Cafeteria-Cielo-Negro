@@ -1,0 +1,72 @@
+body{
+    
+    background: url(../IMG/Cafee.jpg);
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Arial;
+    text-align: center;
+
+}
+
+main{
+    background: white;
+    margin: 0px auto;
+    width: 80%;
+}
+
+h1{
+    font-size: 4rem;
+    background-color: rgb(179, 125, 56);
+    color: white;
+}
+
+.value{
+    font-size: 6rem;
+}
+
+.Imagen{
+    text-align: center;
+    height: 150px;
+    width: 150px;
+}
+
+.Global{
+    display: inline-flex;
+    width: 90%;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.Imagen{
+    width: 45%;
+}
+
+.resultados{
+    margin-top: 35px;
+    text-align: center;
+    width: 100%;
+}
+
+.resultados h1{
+
+    text-align: center;
+}
+
+.resultados ul{
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.resultados li{
+    width: 25%;
+    font-weight: bold;
+    color: rgb(56, 55, 55);
+}
+
+.Total{
+    font-size: 2rem;
+    color: rgb(179, 125, 56);
+}
